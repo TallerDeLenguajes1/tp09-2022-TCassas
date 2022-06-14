@@ -7,7 +7,7 @@ namespace tp09_2022_TCassas {
     class Program {
         static void Main(string[] args) {
             List<Producto> productos = new List<Producto>();
-            Random random = new Random();
+            Random random = new Random(); 
 
             for(int i = 0; i < 5; i++) {
                 string fecha = "";
